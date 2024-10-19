@@ -62,7 +62,8 @@ This Python script initializes a new AWS CDK (Cloud Development Kit) project usi
 
 ## Some considerations
 
-It is recommended to configure poetry to initialize the project with the version available in the active directory. If you use pyenv, this simplifies the configuration process of your project.
+It is recommended to configure Poetry to initialize the project with the Python version available in the active directory: `poetry config virtualenvs.prefer-active-python true`.
+ If you use pyenv, this simplifies the configuration process of your project.
 
 ## Usage
 
