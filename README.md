@@ -60,13 +60,18 @@ This Python script initializes a new AWS CDK (Cloud Development Kit) project usi
 - After completion, it offers instructions on how to start using the CDK project.
 - There's an option to delete the initialization script after execution.
 
+## Some considerations
+
+It is recommended to configure poetry to initialize the project with the version available in the active directory. If you use pyenv, this simplifies the configuration process of your project.
+
 ## Usage
 
 To use this script:
 
 1. Create a new directory for your CDK project.
-2. Place this script in the new directory.
-3. Make the script executable.
-4. Run the script.
+2. Verify that the version of Python available in this directory, Poetry will initialize the project with this version.
+3. Place this script in the new directory.
+3. Make the script executable: `chmod +x cdk_poetry_init.py`
+4. Run the script: `./cdk_poetry_init.py`
 
 The result is a fully initialized CDK project with Poetry for dependency management and Git for version control, ready for development.
