@@ -1,6 +1,6 @@
 # CDK Project Initializer with Poetry and Git
 
-This Python script initializes a new AWS CDK (Cloud Development Kit) project using Poetry for dependency management (instead of venv) and Git for version control. This script takes the name of the project from the name of the directory in which it is executed. Here's an overview of what the script does:
+This Python script initializes a new AWS CDK (Cloud Development Kit) project using Poetry for dependency management (instead of venv) and Git for version control. This script names the project using the same name of the directory in which it is executed. Here's an overview of what the script does:
 
 ## What this script does when it's invoked
 
